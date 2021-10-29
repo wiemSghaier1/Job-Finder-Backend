@@ -1,0 +1,6 @@
+gesdinet_jwt_refresh_token:
+  ttl: 2592000
+  user_identity_field: email
+  user_provider: security.user.provider.concrete.all_users
+  ttl_update: true #maybe change this to false later
+  firewall: api
